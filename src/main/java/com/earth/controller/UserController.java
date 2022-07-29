@@ -35,6 +35,11 @@ public class UserController {
     public IPage<User> page(User user) {
         return userService.page(new Page<>());
     }
+
+    @PostMapping(path = "/d")
+    public boolean del(Long id){
+        return userService.removeById(id);
+    }
 }
 
 
