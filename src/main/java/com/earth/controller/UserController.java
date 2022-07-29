@@ -37,7 +37,7 @@ public class UserController {
     }
 
     @PostMapping(path = "/d")
-    public boolean del(Long id){
+    public boolean del(Long id) {
         return userService.removeById(id);
     }
 }
