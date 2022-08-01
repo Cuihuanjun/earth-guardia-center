@@ -12,3 +12,6 @@ spring:
 mybatis-plus:
   mapper-locations: classpath:com.earth.**.mapper
   typeAliasesPackage: com.earth.**.entity
+alipay:
+  privateKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  alipayPublicKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
