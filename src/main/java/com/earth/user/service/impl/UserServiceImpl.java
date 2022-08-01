@@ -1,9 +1,9 @@
-package com.earth.service.impl;
+package com.earth.user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.earth.entity.User;
-import com.earth.service.IUserService;
-import com.earth.mapper.UserMapper;
+import com.earth.user.entity.User;
+import com.earth.user.service.IUserService;
+import com.earth.user.mapper.UserMapper;
 import org.springframework.stereotype.Service;
 
 /**

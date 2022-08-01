@@ -1,4 +1,4 @@
-package com.earth.entity;
+package com.earth.user.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

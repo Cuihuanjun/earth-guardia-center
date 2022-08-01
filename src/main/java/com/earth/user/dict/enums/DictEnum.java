@@ -1,4 +1,4 @@
-package com.earth.enums;
+package com.earth.user.dict.enums;
 
 /**
  * @author tang

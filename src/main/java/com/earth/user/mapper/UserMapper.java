@@ -1,7 +1,7 @@
-package com.earth.mapper;
+package com.earth.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.earth.entity.User;
+import com.earth.user.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

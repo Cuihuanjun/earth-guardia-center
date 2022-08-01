@@ -1,7 +1,7 @@
-package com.earth.service;
+package com.earth.user.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.earth.entity.User;
+import com.earth.user.entity.User;
 
 /**
 * @author tang

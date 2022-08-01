@@ -38,19 +38,19 @@ public class MybatisPlus {
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
         // MYSQL:
-        // dsc.setUrl("jdbc:mysql://127.0.0.1:3306/mysql?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false");
-        // dsc.setDriverName("com.mysql.cj.jdbc.Driver");
-        // dsc.setUsername("root");
-        // dsc.setPassword("root");
-        // dsc.setDbType(DbType.MYSQL);
-        // mpg.setDataSource(dsc);
+         dsc.setUrl("jdbc:mysql://127.0.0.1:3306/earth?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false");
+         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
+         dsc.setUsername("root");
+         dsc.setPassword("root");
+         dsc.setDbType(DbType.MYSQL);
+         mpg.setDataSource(dsc);
         // ORACLE:
-        dsc.setUrl("jdbc:oracle:thin:@127.0.0.1:1521/orcl");
-        dsc.setDriverName("oracle.jdbc.driver.OracleDriver");
-        dsc.setUsername("ds_adp");
-        dsc.setPassword("ds_adp");
-        dsc.setDbType(DbType.ORACLE);
-        mpg.setDataSource(dsc);
+//        dsc.setUrl("jdbc:oracle:thin:@127.0.0.1:1521/orcl");
+//        dsc.setDriverName("oracle.jdbc.driver.OracleDriver");
+//        dsc.setUsername("ds_adp");
+//        dsc.setPassword("ds_adp");
+//        dsc.setDbType(DbType.ORACLE);
+//        mpg.setDataSource(dsc);
 
         // 4、包配置
         PackageConfig pc = new PackageConfig();

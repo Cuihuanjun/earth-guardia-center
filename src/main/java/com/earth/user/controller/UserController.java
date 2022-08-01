@@ -1,9 +1,9 @@
-package com.earth.controller;
+package com.earth.user.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.earth.entity.User;
-import com.earth.service.IUserService;
+import com.earth.user.entity.User;
+import com.earth.user.service.IUserService;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
