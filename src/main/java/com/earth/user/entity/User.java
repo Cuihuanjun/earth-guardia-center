@@ -30,6 +30,7 @@ public class User {
     private Long id;
     private String username;
     private String password;
+//    private Integer age;
 
     public User() {
         // @AllArgsConstructor注解需要空参
